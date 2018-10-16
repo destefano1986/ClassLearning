@@ -2,15 +2,15 @@
 # 2. Hook/Magic method => Operator Override/__init__/__str__/__call__
 # 3. Inherit/多根/单根
 
-# class A(object):
-#     aField = ['TestAField']
-#     def aMethod(self):
-#         print(self.aField)
-#         print('TestAMethod')
-#     birthday = 1983
-#     @property
-#     def age(self):
-#         return 2018 - self.birthday
+class A(object):
+     aField = ['TestAField']
+     def aMethod(self):
+         print(self.aField)
+         print('TestAMethod')
+     birthday = 1983
+     @property
+     def age(self):
+         return 2018 - self.birthday
 # 
 # aInstance = A()
 # bInstance = A()
